@@ -1,0 +1,8 @@
+go 1.19
+use ./exporters/stdout/stdoutmetric
+use ./example/opencensus
+use ./example/view
+use ./exporters/prometheus
+use ./exporters/otlp/otlpmetric
+use ./exporters/otlp/otlpmetric/otlpmetrichttp
+use ./exporters/zipkin
